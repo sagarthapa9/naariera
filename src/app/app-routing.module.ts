@@ -5,6 +5,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'privacy', component: PrivacyPolicyComponent },
   { path: 'tandc', component: TermsAndConditionsComponent }
